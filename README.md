@@ -1,68 +1,90 @@
-Nashville Wage Growth vs. Cost of Living: Data Analytics Capstone
-Project Overview
+\# Nashville Wage Growth vs. Cost of Living Capstone
+
+
+
+\## Overview
+
 This capstone project analyzes how wages and the cost of living have changed in Nashville, Tennessee over the past decade. The main focus is to compare wage growth to the income needed to afford median housing and basic living expenses, highlighting the growing affordability gap for residents.
 
-Data Sources
-Zillow: Median rent and income needed for renters, 2015–2024
-
-Metro Nashville: Average annual pay for metro government employees
-
-U.S. Census Bureau (ACS): Median household income, Davidson County
-
-MIT Living Wage Calculator: Living wage estimates for Davidson County
-
-FRED (Federal Reserve): Consumer Price Index (CPI) for inflation trends
-
-Key Questions
-Are wages in Nashville keeping up with the rising cost of living and housing?
-
-How has the income gap changed over time?
-
-What role does inflation play in affordability?
-
-Methods
-Data collection via API, public CSV, and web scraping
-
-Data cleaning and merging in Python (Jupyter Notebook)
-
-Analysis and visualization using Python, Power BI, and Excel
-
-Main Findings
-Income needed for rent has doubled since 2015, while wages have grown much more slowly.
-
-The gap between actual pay and what’s needed for rent has widened sharply since 2021.
-
-Inflation contributes, but rising housing costs are the main driver of reduced affordability.
-
-Repository Structure
-/data/ — Raw and cleaned data files (CSV)
-
-/notebooks/ — Jupyter Notebooks with analysis and code
-
-/images/ — Key charts and visuals for presentation
-
-capstone_final_data.csv — Merged final data used for Power BI
-
-README.md — Project description (this file)
-
-How to Use
-Review the data files and notebooks for sources and code.
-
-Import capstone_final_data.csv into Power BI or Excel to explore the visuals.
-
-Use the visuals and summary for presentations or further analysis.
-
-Acknowledgments
-Data from Zillow, U.S. Census Bureau, MIT Living Wage Calculator, FRED, and Metro Nashville.
-Project completed for the Data Analytics Capstone course, 2024.
+---
 
 
 
+\## Datasets
+
+\- \*\*Primary Dataset:\*\*
+
+&nbsp;   - \[Zillow: Median Income Needed to Purchase House in Nashville (2015–2024)](https://www.zillow.com/research/data/)
+
+\- \*\*Supplemental Datasets:\*\*
+
+&nbsp;   - Metro Nashville: Employee earnings by year
+
+&nbsp;   - \[U.S. Census ACS: Median Household Income for Davidson County, TN](https://data.census.gov/table?q=median+household+income+davidson+county+tn)
+
+&nbsp;   - \[MIT Living Wage Calculator: Davidson County, TN](https://livingwage.mit.edu/counties/47037)
+
+&nbsp;   - \[FRED: Consumer Price Index (CPI)](https://fred.stlouisfed.org/series/CPIAUCSL)
 
 
 
+---
 
 
+
+\## Key Questions
+
+\- Are wage increases in Nashville keeping up with the rising cost of rent and living expenses?
+
+\- How has the affordability gap (income needed vs. average pay) changed over the last decade?
+
+\- How do median household income and living wage estimates compare to required income for rent?
+
+
+
+---
+
+
+
+\## Key Findings 
+
+-Income needed for rent has doubled since 2015, while wages have grown much more slowly.
+
+-The gap between actual pay and what’s needed for rent has widened sharply since 2021.
+
+-Inflation contributes, but rising housing costs are the main driver of reduced affordability.
+
+
+
+---
+
+
+
+\## Tools Used
+
+\- Python (Pandas, requests)
+
+\- SQL
+
+\- Power BI
+
+
+
+---
+
+
+
+\## Methodology
+
+\- Data Cleaning (Python, Pandas)
+
+\- Exploratory Data Analysis (EDA)
+
+\- Data Merging and Calculation of Affordability Gap
+
+\- Visualizations (Power BI, Python)
+
+\- Summary of Insights
 
 
 
